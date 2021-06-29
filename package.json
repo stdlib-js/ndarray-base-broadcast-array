@@ -23,7 +23,10 @@
   },
   "types": "./docs/types",
   "scripts": {
-    "examples": "make examples"
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples",
+    "benchmark": "make benchmark"
   },
   "homepage": "https://stdlib.io",
   "repository": {
@@ -38,9 +41,16 @@
     "@stdlib/types": "^0.0.x"
   },
   "devDependencies": {
+    "@stdlib/array-float64": "^0.0.x",
+    "@stdlib/assert-is-ndarray-like": "^0.0.x",
+    "@stdlib/bench": "^0.0.x",
     "@stdlib/ndarray-array": "^0.0.x",
     "@stdlib/ndarray-base-numel": "^0.0.x",
-    "@stdlib/ndarray-ind2sub": "^0.0.x"
+    "@stdlib/ndarray-ctor": "^0.0.x",
+    "@stdlib/ndarray-ind2sub": "^0.0.x",
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-spec": "5.x.x"
   },
   "engines": {
     "node": ">=0.10.0",
