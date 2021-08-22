@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-broadcast-array",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Broadcast an ndarray to a specified shape.",
   "license": "Apache-2.0",
   "author": {
