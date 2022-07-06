@@ -1,0 +1,4 @@
+// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import r from"https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-fmtprodmsg@esm/index.mjs";function e(r){var t,e;for(t=[],e=0;e<r.length;e++)t.push(r[e]);return t}function o(o,n){var s,i,f,d,h,a,j,l,m;if((h=n.length)<(a=(f=o.shape).length))throw new Error(t("0Lx0Z"));for(s=[],l=0;l<h;l++)s.push(0);for(d=o.strides,l=h-1;l>=0;l--)if(!((m=a-h+l)<0)){if(j=f[m],0!==(i=n[l])&&i<j)throw new Error(t("0Lx5T",e(f).join(", "),e(n).join(", "),l));if(j===i)s[l]=d[m];else{if(1!==j)throw new Error(t("0Lx5U",e(f).join(", "),e(n).join(", "),l));s[l]=0}}return r(o.dtype,o.data,e(n),s,o.offset,o.order)}export{o as default};
+//# sourceMappingURL=index.mjs.map
