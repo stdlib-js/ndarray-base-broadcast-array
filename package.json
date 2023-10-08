@@ -45,7 +45,7 @@
     "@stdlib/ndarray-base-order": "github:stdlib-js/ndarray-base-order#main",
     "@stdlib/ndarray-base-shape": "github:stdlib-js/ndarray-base-shape#main",
     "@stdlib/ndarray-base-strides": "github:stdlib-js/ndarray-base-strides#main",
-    "@stdlib/string-format": "^0.1.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1",
     "@stdlib/types": "^0.1.0"
   },
   "devDependencies": {
