@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import broadcastArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-array@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-broadcast-array/tags). For example,
+
+```javascript
 import broadcastArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-array@v0.2.2-esm/index.mjs';
 ```
 
@@ -107,7 +112,7 @@ var y = broadcastArray( x, [ 2, 2, 2 ] );
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
 import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@esm/index.mjs';
 import ind2sub from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ind2sub@esm/index.mjs';
-import broadcastArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-array@v0.2.2-esm/index.mjs';
+import broadcastArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-array@esm/index.mjs';
 
 // Create a 2x2 array:
 var x = array( [ [ 1, 2 ], [ 3, 4 ] ] );
