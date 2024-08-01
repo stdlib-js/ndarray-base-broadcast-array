@@ -37,14 +37,14 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-copy-indexed": "^0.2.1",
+    "@stdlib/array-base-copy-indexed": "^0.2.2",
     "@stdlib/ndarray-base-ctor": "^0.2.2",
     "@stdlib/ndarray-base-data-buffer": "^0.2.2",
     "@stdlib/ndarray-base-dtype": "^0.2.2",
     "@stdlib/ndarray-base-offset": "^0.2.2",
     "@stdlib/ndarray-base-order": "^0.2.2",
-    "@stdlib/ndarray-base-shape": "^0.2.1",
-    "@stdlib/ndarray-base-strides": "^0.2.1",
+    "@stdlib/ndarray-base-shape": "^0.2.2",
+    "@stdlib/ndarray-base-strides": "^0.2.2",
     "@stdlib/string-format": "^0.2.2",
     "@stdlib/types": "^0.3.2",
     "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
@@ -54,8 +54,8 @@
     "@stdlib/assert-is-ndarray-like": "^0.2.2",
     "@stdlib/ndarray-array": "^0.2.1",
     "@stdlib/ndarray-base-numel": "^0.2.2",
-    "@stdlib/ndarray-ctor": "^0.2.1",
-    "@stdlib/ndarray-ind2sub": "^0.2.1",
+    "@stdlib/ndarray-ctor": "^0.2.2",
+    "@stdlib/ndarray-ind2sub": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
