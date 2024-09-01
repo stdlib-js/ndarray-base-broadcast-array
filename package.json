@@ -45,7 +45,7 @@
     "@stdlib/ndarray-base-order": "^0.2.2",
     "@stdlib/ndarray-base-shape": "^0.2.2",
     "@stdlib/ndarray-base-strides": "^0.2.2",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
     "@stdlib/types": "^0.4.1",
     "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
