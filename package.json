@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "@stdlib/array-base-copy-indexed": "^0.2.2",
+    "@stdlib/array-base-zeros": "^0.2.2",
     "@stdlib/ndarray-base-ctor": "^0.2.2",
     "@stdlib/ndarray-base-data-buffer": "^0.2.2",
     "@stdlib/ndarray-base-dtype": "^0.2.2",
