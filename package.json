@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-broadcast-array",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Broadcast an ndarray to a specified shape.",
   "license": "Apache-2.0",
   "author": {
@@ -39,7 +39,7 @@
   "dependencies": {
     "@stdlib/array-base-copy-indexed": "^0.2.3",
     "@stdlib/array-base-zeros": "^0.2.3",
-    "@stdlib/ndarray-base-ctor": "^0.3.0",
+    "@stdlib/ndarray-base-ctor": "^0.3.1",
     "@stdlib/ndarray-base-data-buffer": "^0.2.3",
     "@stdlib/ndarray-base-dtype": "^0.2.3",
     "@stdlib/ndarray-base-offset": "^0.2.3",
@@ -55,7 +55,7 @@
     "@stdlib/assert-is-ndarray-like": "^0.2.2",
     "@stdlib/ndarray-array": "^0.2.2",
     "@stdlib/ndarray-base-numel": "^0.2.3",
-    "@stdlib/ndarray-ctor": "^0.3.0",
+    "@stdlib/ndarray-ctor": "^0.3.1",
     "@stdlib/ndarray-ind2sub": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
