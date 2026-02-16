@@ -52,8 +52,8 @@
   },
   "devDependencies": {
     "@stdlib/array-float64": "^0.2.3",
-    "@stdlib/assert-is-ndarray-like": "^0.2.2",
-    "@stdlib/ndarray-array": "^0.2.2",
+    "@stdlib/assert-is-ndarray-like": "^0.2.3",
+    "@stdlib/ndarray-array": "^0.2.3",
     "@stdlib/ndarray-base-numel": "^0.2.3",
     "@stdlib/ndarray-ctor": "^0.3.1",
     "@stdlib/ndarray-ind2sub": "^0.2.3",
